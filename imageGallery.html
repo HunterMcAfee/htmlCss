@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Title is used by the browser tab system and all the SEO stuff -->
+    <title>Places to visit in Georgia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <style>
+        #gallery-wrapper {
+            text-align: center;
+        }
+
+        .thumb {
+            width: 15%;
+            margin-left: 10px;
+            margin-right: 10px;
+            /* 2 numbers = 1st: top and bottom 2nd = left and right; */
+            margin: 0px 10px;
+            /* 3 numbers 1st: top, 2nd: left and right, 3rd: bottom; */
+            margin: 0px 100px 10px;
+            /* 4 numbers, top, right, bottom, left */
+            margin: 0px 10px 20px 10px;
+        }
+
+        img {
+            width: 1000px;
+        }
+    </style>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="gallery-wrapper">
+        <div id="top-section">
+            <h1>A photo gallery made with HMTL, JS, and CSS. And a whole lot of love</h1>
+        </div>
+        <div id="middle-section">
+            <!-- <h1>Middle Section</h1> -->
+            <img class="thumb" src="./ga_pics/arabia_mnt.jpg" onclick="bigPic.src=this.src" />
+            <img class="thumb" src="./ga_pics/callaway_gardens.jpg" onclick="bigPic.src=this.src" />
+            <img class="thumb" src="./ga_pics/Etowah_Indian_Mounds.jpg" onclick="bigPic.src=this.src" />
+            <img class="thumb" src="./ga_pics/prov_state_canyon.jpg" onclick="bigPic.src=this.src" />
+            <img class="thumb" src="./ga_pics/wormsloe.jpg" onclick="bigPic.src=this.src" />
+        </div>
+        <div id="bottom-section">
+            <img src="./ga_pics/prov_state_canyon.jpg" name="bigPic" />
+        </div>
+    </div>
+</body>
+
+</html>

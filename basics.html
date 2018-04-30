@@ -1,0 +1,97 @@
+<!-- Doctype tells the browser how this thing should be processed -->
+<!DOCTYPE html>
+<html>
+<!-- Head tag is where most of the stuff the user doesn't need to see goes.  I.e. css, js,  -->
+
+<head>
+    <title>Basic HTML</title>
+    <style>
+        /* tag = red
+            .class = green
+            #id = green */
+
+        body {
+            color: red;
+        }
+
+        .table-head {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<!-- Can give elements attributes to have information on the tag -->
+
+<body id="" class="" ref="" style="background:rgb(248, 248, 248)">
+    <!-- All the stuff the user is supposed to see. -->
+
+    <!-- Inline = content that makes the web. Stuff like.
+        text.
+        images.
+        videos.
+        Inline element will take up as much space as it needs... unless told otherwise.  They do not start new lines.
+
+        Block level elements are usually stuff that people don't see.  i.e., 
+        block lements start new lines... or take up 100% of the space available. -->
+    
+    <table class="table-head">
+        <th>Table</th>
+        <tr>
+            <td>On</td>
+            <td>Off</td>
+        </tr>
+        <tr>
+                <td>On</td>
+                <td>Off</td>
+            </tr>
+    </table>
+
+    <strong>I change what's inside me</strong>
+    <em>Italics</em>
+    <del>Strike!</del>
+    <blockquote>block quote</blockquote>
+    <img width=500 height=200 src="https://i.imgur.com/ZkCaZyR.jpg" />
+    <br />
+    <a href="http://www.espn.com" target="_blank">
+        This is an anchor tag.
+    </a>
+    <br />
+    <a href="mlb/story/_id" target="_blank">
+        This is a relative path.
+    </a>
+    <br />
+    <a href="tel:5555555555">555</a>
+    <br />
+    <a href="mailto:rob@syntelinc.com">Email me</a>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ul>
+            <li>Nested item 1</li>
+            <li>Nested item 2</li>
+        </ul>
+    </ol>
+
+    <form action="" method="">
+        <input type="text" />
+        <input type="password" />
+        <input type="email" />
+        <input type="number" />
+        <input type="date" />
+    </form>
+
+    <div>
+        <p>
+            Eu sint labore eu dolore reprehenderit. Irure laborum ea ad cupidatat ut proident irure ad enim fugiat aliquip. Nisi deserunt
+            nostrud minim enim consectetur et sunt irure velit ad proident nisi. Eiusmod adipisicing cupidatat ipsum est
+            sint occaecat dolor. Proident commodo reprehenderit consectetur aliqua labore cupidatat labore labore aliqua.
+            Proident Lorem eu culpa laboris do anim occaecat sint aliquip occaecat.
+        </p>
+        I am a structural tag
+    </div>
+    <h1>I'm an h1</h1>
+    <br />
+    <p>I'm a p tag</p>
+</body>
+
+</html>
